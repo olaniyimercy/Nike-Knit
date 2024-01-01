@@ -70,32 +70,32 @@ body {
     border-radius: 50%;
 }
 
-.container__plus-first {
+.container__plus--first {
     position: absolute;
     bottom: 21.5rem;
 }
 
-.container__plus-first:hover {
+.container__plus--first:hover {
     cursor: pointer;
 }
 
-.container__plus-second {
+.container__plus--second {
     position: absolute;
     bottom: 13rem;
     left: 5rem;
 }
 
-.container__plus-second:hover {
+.container__plus--second:hover {
     cursor: pointer;
 }
 
-.container__plus-third {
+.container__plus--third {
     position: absolute;
     bottom: 10.5rem;
     left: 14.5rem;
 }
 
-.container__plus-third:hover {
+.container__plus--third:hover {
     cursor: pointer;
 }
 
@@ -143,7 +143,7 @@ body {
     gap: 1rem;
 }
 
-.wrapper__price-text {
+.wrapper__price__text {
     font-size: .6rem;
 }
 
@@ -230,13 +230,13 @@ nav {
     justify-content: center;
 }
 
-.wrapper--amount {
+.wrapper__amount {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
 
-.wrapper--amount-text {
+.wrapper__amount__text {
     display: flex;
     align-self: center;
     gap: .5rem;
