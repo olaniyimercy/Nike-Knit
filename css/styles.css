@@ -169,7 +169,7 @@ nav {
 }
 
 
-.wrapper__size-digits-one:hover {
+.wrapper__size--one:hover {
     cursor: pointer;
     border-radius: 50%;
     border: 2px solid #e26796;
@@ -181,7 +181,7 @@ nav {
     justify-content: center;
 }
 
-.wrapper__size-digits-two:hover {
+.wrapper__size--two:hover {
     cursor: pointer;
     border-radius: 50%;
     border: 2px solid #e26796;
@@ -193,7 +193,7 @@ nav {
     justify-content: center;
 }
 
-.wrapper__size-digits-three:hover {
+.wrapper__size--three:hover {
     cursor: pointer;
     border-radius: 50%;
     border: 2px solid #e26796;
@@ -205,7 +205,7 @@ nav {
     justify-content: center;
 }
 
-.wrapper__size-digits-four:hover {
+.wrapper__size--four:hover {
     cursor: pointer;
     border-radius: 5rem;
     border: 2px solid #e26796;
@@ -217,7 +217,7 @@ nav {
     justify-content: center;
 }
 
-.wrapper__size-digits-five:hover {
+.wrapper__size--five:hover {
     cursor: pointer;
     border-radius: 50%;
     border: 2px solid #e26796;
