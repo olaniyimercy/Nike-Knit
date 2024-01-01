@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.light-color {
+    color: #b4b4b8;
+}
+
+b {
+    font-size: 1.5rem;
+}
+
+.small-font {
+    font-size: 1.4rem;
+}
+
+.icon {
+    color: #e26796;
+}
+
+body {
+    background-color: #4d26e6;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background-color: #e26796;
+    width: 25rem;
+    height: 40rem;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem .5rem .5rem rgba(0,0,0,.2);
+    z-index: 1;
+    position: relative;
+    padding: 1rem;
+}
+
+.container--logo {
+    width: 3rem;
+}
+
+.container--digits {
+    color: #e987ab;
+    font-size: 20rem;
+    font-weight: 600;
+}
+
+.container--preview {
+    position: absolute;
+    width: 27rem;
+    bottom: 1.9rem;
+    right: 4rem;
+}
+
+.container--plus {
+    background-color: #5429f2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+
+.first {
+    position: absolute;
+    bottom: 21.5rem;
+}
+
+.first:hover {
+    cursor: pointer;
+}
+
+.second {
+    position: absolute;
+    bottom: 13rem;
+    left: 5rem;
+}
+
+.second:hover {
+    cursor: pointer;
+}
+
+.third {
+    position: absolute;
+    bottom: 10.5rem;
+    left: 14.5rem;
+}
+
+.third:hover {
+    cursor: pointer;
+}
+
+.container--dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11rem;
+    gap: 1rem;
+}
+
+.container--dots-dot {
+    width: 1rem;
+    height: 1rem;
+    background-color: #eea5bf;
+    border-radius: 50%;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.wheat:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 33rem;
+    height: 35rem;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    padding: 2.5rem;
+}
+
+.wrapper--header {
+    font-size: 3rem;
+}
+
+.wrapper--price {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.wrapper--price-text {
+    font-size: .6rem;
+}
+
+article {
+    width: 29rem;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.wrapper--size {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin: 2rem 0;
+}
+
+
+.one:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #e26796;
+    color: #e26796;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #e26796;
+    color: #e26796;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #e26796;
+    color: #e26796;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.four:hover {
+    cursor: pointer;
+    border-radius: 5rem;
+    border: 2px solid #e26796;
+    color: #e26796;
+    width: 4rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.five:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #e26796;
+    border-radius: 5rem;
+    color: #e26796;
+    width: 4.3rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper--amount {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.wrapper--amount-text {
+    display: flex;
+    align-self: center;
+    gap: .5rem;
+}
+
+input {
+    text-transform: uppercase;
+    background-color: #e84c3d;
+    box-shadow: .3rem .3rem .3rem .3rem rgba(232,76,61,.3);
+    border-radius: .2rem;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    width: 15rem;
+    height: 2.5rem;
+    margin: 3rem 0;
+}
