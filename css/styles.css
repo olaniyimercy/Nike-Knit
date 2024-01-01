@@ -42,24 +42,24 @@ body {
     padding: 1rem;
 }
 
-.container--logo {
+.container__logo {
     width: 3rem;
 }
 
-.container--digits {
+.container__digits {
     color: #e987ab;
     font-size: 20rem;
     font-weight: 600;
 }
 
-.container--preview {
+.container__preview {
     position: absolute;
     width: 27rem;
     bottom: 1.9rem;
     right: 4rem;
 }
 
-.container--plus {
+.container__plus {
     background-color: #5429f2;
     color: #fff;
     display: flex;
@@ -70,36 +70,36 @@ body {
     border-radius: 50%;
 }
 
-.first {
+.container__plus-first {
     position: absolute;
     bottom: 21.5rem;
 }
 
-.first:hover {
+.container__plus-first:hover {
     cursor: pointer;
 }
 
-.second {
+.container__plus-second {
     position: absolute;
     bottom: 13rem;
     left: 5rem;
 }
 
-.second:hover {
+.container__plus-second:hover {
     cursor: pointer;
 }
 
-.third {
+.container__plus-third {
     position: absolute;
     bottom: 10.5rem;
     left: 14.5rem;
 }
 
-.third:hover {
+.container__plus-third:hover {
     cursor: pointer;
 }
 
-.container--dots {
+.container__dots {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,18 +107,18 @@ body {
     gap: 1rem;
 }
 
-.container--dots-dot {
+.container__dots__dot {
     width: 1rem;
     height: 1rem;
     background-color: #eea5bf;
     border-radius: 50%;
 }
 
-.white {
+.container__dots__dot-white {
     background-color: #fff;
 }
 
-.wheat:hover {
+.container__dots__dot-wheat:hover {
     background-color: #fff;
     cursor: pointer;
 }
@@ -132,18 +132,18 @@ body {
     padding: 2.5rem;
 }
 
-.wrapper--header {
+.wrapper__header {
     font-size: 3rem;
 }
 
-.wrapper--price {
+.wrapper__price {
     display: flex;
     align-items: center;
     margin: 1rem 0;
     gap: 1rem;
 }
 
-.wrapper--price-text {
+.wrapper__price-text {
     font-size: .6rem;
 }
 
@@ -161,7 +161,7 @@ nav {
     font-size: 2rem;
 }
 
-.wrapper--size {
+.wrapper__size {
     display: flex;
     align-items: center;
     gap: 5rem;
@@ -169,7 +169,7 @@ nav {
 }
 
 
-.one:hover {
+.wrapper__size-digits-one:hover {
     cursor: pointer;
     border-radius: 50%;
     border: 2px solid #e26796;
@@ -181,7 +181,7 @@ nav {
     justify-content: center;
 }
 
-.two:hover {
+.wrapper__size-digits-two:hover {
     cursor: pointer;
     border-radius: 50%;
     border: 2px solid #e26796;
@@ -193,7 +193,7 @@ nav {
     justify-content: center;
 }
 
-.three:hover {
+.wrapper__size-digits-three:hover {
     cursor: pointer;
     border-radius: 50%;
     border: 2px solid #e26796;
@@ -205,7 +205,7 @@ nav {
     justify-content: center;
 }
 
-.four:hover {
+.wrapper__size-digits-four:hover {
     cursor: pointer;
     border-radius: 5rem;
     border: 2px solid #e26796;
@@ -217,7 +217,7 @@ nav {
     justify-content: center;
 }
 
-.five:hover {
+.wrapper__size-digits-five:hover {
     cursor: pointer;
     border-radius: 50%;
     border: 2px solid #e26796;
