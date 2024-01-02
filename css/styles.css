@@ -114,11 +114,11 @@ body {
     border-radius: 50%;
 }
 
-.container__dots__dot-white {
+.container__dots__dot--white {
     background-color: #fff;
 }
 
-.container__dots__dot-wheat:hover {
+.container__dots__dot--wheat:hover {
     background-color: #fff;
     cursor: pointer;
 }
